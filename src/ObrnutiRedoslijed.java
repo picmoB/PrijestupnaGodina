@@ -22,7 +22,7 @@ public class ObrnutiRedoslijed {
             if (i == novaRecenica.length - 1) {
                 rezultat = novaRecenica[i] + rezultat;
             } else {
-                rezultat = novaRecenica[i] + rezultat + " ";
+                rezultat = " " + novaRecenica[i] + rezultat;
             }
         }
         System.out.println(rezultat);
